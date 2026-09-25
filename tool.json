@@ -1,0 +1,253 @@
+{
+  "tool": {
+    "id": "apfel",
+    "title": "Escore de Apfel (NVPO)",
+    "short": "Risco de náusea e vômito pós-operatórios",
+    "desc": "Calcule o escore de Apfel para o risco de náusea e vômito pós-operatórios (NVPO) em adultos e planeje a profilaxia antiemética.",
+    "lead": "Estima o risco de náusea e vômito nas primeiras 24 horas após anestesia geral em adultos, com quatro fatores, e orienta a profilaxia antiemética.",
+    "spec": [
+      "anestesiologia",
+      "cirurgia-geral",
+      "cirurgia-plastica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "fem",
+        "Sexo feminino",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "naofuma",
+        "Não fumante",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "historia",
+        "História de NVPO ou cinetose",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "opioide",
+        "Uso previsto de opioide no pós-operatório",
+        "chk",
+        {
+          "pts": 1
+        }
+      ]
+    ],
+    "score": {
+      "label": "Escore de Apfel",
+      "unit": "de 4",
+      "bands": [
+        [
+          0,
+          "low",
+          "Risco de NVPO de cerca de 10%",
+          "Profilaxia em geral dispensável, salvo outros fatores."
+        ],
+        [
+          1,
+          "low",
+          "Risco de NVPO de cerca de 21%",
+          "Considere 1 a 2 medidas profiláticas (diretriz de 2020: 2 antieméticos com 1 a 2 fatores)."
+        ],
+        [
+          2,
+          "mid",
+          "Risco de NVPO de cerca de 39%",
+          "Profilaxia com 2 antieméticos de classes diferentes."
+        ],
+        [
+          3,
+          "high",
+          "Risco de NVPO de cerca de 61%",
+          "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."
+        ],
+        [
+          4,
+          "high",
+          "Risco de NVPO de cerca de 79%",
+          "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."
+        ]
+      ]
+    },
+    "formula": "<p>Um ponto para cada fator: sexo feminino, não fumante, história de NVPO ou cinetose e opioide pós-operatório.</p>",
+    "table": [
+      [
+        "Fatores",
+        "Risco de NVPO em 24 h"
+      ],
+      [
+        "0",
+        "10%"
+      ],
+      [
+        "1",
+        "21%"
+      ],
+      [
+        "2",
+        "39%"
+      ],
+      [
+        "3",
+        "61%"
+      ],
+      [
+        "4",
+        "79%"
+      ]
+    ],
+    "tips": [
+      "A 4ª diretriz de consenso (Gan, 2020) recomenda profilaxia com 2 antieméticos em pacientes com 1 ou 2 fatores e 3 a 4 intervenções com 3 ou mais fatores.",
+      "Reduza o risco de base: prefira anestesia regional ou venosa total com propofol, evite óxido nitroso e anestésicos voláteis quando possível, e poupe opioides com analgesia multimodal.",
+      "Combine antieméticos de classes diferentes (ex.: ondansetrona + dexametasona); repetir a mesma classe em até 6 horas não ajuda no resgate.",
+      "O escore é para adultos; em crianças, use o escore POVOC (Eberhart)."
+    ],
+    "sources": [
+      [
+        "Apfel CC et al. A simplified risk score for predicting postoperative nausea and vomiting: conclusions from cross-validations between two centers. Anesthesiology, 1999.",
+        "https://doi.org/10.1097/00000542-199909000-00022"
+      ],
+      [
+        "Gan TJ et al. Fourth consensus guidelines for the management of postoperative nausea and vomiting. Anesth Analg, 2020.",
+        "https://doi.org/10.1213/ANE.0000000000004833"
+      ]
+    ],
+    "cases": [
+      [
+        "Homem fumante sem opioide: 0 (10%)",
+        [],
+        {
+          "score": 0,
+          "level": "low"
+        }
+      ],
+      [
+        "Mulher não fumante: 2 (39%)",
+        {
+          "fem": true,
+          "naofuma": true
+        },
+        {
+          "score": 2,
+          "level": "mid",
+          "verdict": "39%"
+        }
+      ],
+      [
+        "Todos os fatores: 4 (79%)",
+        {
+          "fem": true,
+          "naofuma": true,
+          "historia": true,
+          "opioide": true
+        },
+        {
+          "score": 4,
+          "level": "high",
+          "verdict": "79%"
+        }
+      ]
+    ],
+    "batch": "urgencia",
+    "kind": "Escore",
+    "config": {
+      "unit": "de 4",
+      "label": "Escore de Apfel",
+      "fields": [
+        [
+          "fem",
+          "chk",
+          1
+        ],
+        [
+          "naofuma",
+          "chk",
+          1
+        ],
+        [
+          "historia",
+          "chk",
+          1
+        ],
+        [
+          "opioide",
+          "chk",
+          1
+        ]
+      ],
+      "bands": [
+        [
+          0,
+          "low",
+          "Risco de NVPO de cerca de 10%",
+          "Profilaxia em geral dispensável, salvo outros fatores."
+        ],
+        [
+          1,
+          "low",
+          "Risco de NVPO de cerca de 21%",
+          "Considere 1 a 2 medidas profiláticas (diretriz de 2020: 2 antieméticos com 1 a 2 fatores)."
+        ],
+        [
+          2,
+          "mid",
+          "Risco de NVPO de cerca de 39%",
+          "Profilaxia com 2 antieméticos de classes diferentes."
+        ],
+        [
+          3,
+          "high",
+          "Risco de NVPO de cerca de 61%",
+          "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."
+        ],
+        [
+          4,
+          "high",
+          "Risco de NVPO de cerca de 79%",
+          "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."
+        ]
+      ]
+    },
+    "areaId": "urgencia",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/urgencia.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/urgencia.php",
+    "sha256": "b24f3a77383430c3f3463168e78e88341034b3108bd712f3613ae32672dc281c",
+    "bytes": 121059
+  },
+  "clinicalValidation": "not-performed"
+}

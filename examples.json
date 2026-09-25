@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Homem fumante sem opioide: 0 (10%)",
+    "input": {},
+    "expected": {
+      "score": 0,
+      "level": "low"
+    },
+    "originalInput": [],
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Mulher não fumante: 2 (39%)",
+    "input": {
+      "fem": true,
+      "naofuma": true
+    },
+    "expected": {
+      "score": 2,
+      "level": "mid",
+      "verdict": "39%"
+    },
+    "originalInput": {
+      "fem": true,
+      "naofuma": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Todos os fatores: 4 (79%)",
+    "input": {
+      "fem": true,
+      "naofuma": true,
+      "historia": true,
+      "opioide": true
+    },
+    "expected": {
+      "score": 4,
+      "level": "high",
+      "verdict": "79%"
+    },
+    "originalInput": {
+      "fem": true,
+      "naofuma": true,
+      "historia": true,
+      "opioide": true
+    },
+    "expandedZeroOptions": []
+  }
+]
