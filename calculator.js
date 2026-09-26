@@ -1,11 +1,11 @@
-/* tool-apfel · Elucenia · https://github.com/Elucenia/tool-apfel
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-apfel · ELUCENIA · https://github.com/Elucenia/tool-apfel
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"apfel","title":"Escore de Apfel (NVPO)","fields":[["fem","Sexo feminino","chk",{"pts":1}],["naofuma","Não fumante","chk",{"pts":1}],["historia","História de NVPO ou cinetose","chk",{"pts":1}],["opioide","Uso previsto de opioide no pós-operatório","chk",{"pts":1}]],"config":{"unit":"de 4","label":"Escore de Apfel","fields":[["fem","chk",1],["naofuma","chk",1],["historia","chk",1],["opioide","chk",1]],"bands":[[0,"low","Risco de NVPO de cerca de 10%","Profilaxia em geral dispensável, salvo outros fatores."],[1,"low","Risco de NVPO de cerca de 21%","Considere 1 a 2 medidas profiláticas (diretriz de 2020: 2 antieméticos com 1 a 2 fatores)."],[2,"mid","Risco de NVPO de cerca de 39%","Profilaxia com 2 antieméticos de classes diferentes."],[3,"high","Risco de NVPO de cerca de 61%","Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."],[4,"high","Risco de NVPO de cerca de 79%","Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
