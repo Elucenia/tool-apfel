@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean fem",
+    "input": {
+      "fem": "2",
+      "naofuma": false,
+      "historia": false,
+      "opioide": false
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean naofuma",
+    "input": {
+      "fem": false,
+      "naofuma": "2",
+      "historia": false,
+      "opioide": false
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "naofuma"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean historia",
+    "input": {
+      "fem": false,
+      "naofuma": false,
+      "historia": "2",
+      "opioide": false
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "historia"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean opioide",
+    "input": {
+      "fem": false,
+      "naofuma": false,
+      "historia": false,
+      "opioide": "2"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "opioide"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
