@@ -1,0 +1,174 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "apfel",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "4a428ad3fd86196e49671a76be74b68db695bdbb",
+    "oldEngineSha256": "f2feb09213a0ebf3aae0f43522901f7aa47d9f683932ce30ecb9bf194d2fb36c",
+    "currentEngineSha256": "64aaf4d89cba722acc84578f1b60f00fcbe7ab5d79dd071534a320e81ee90f3d"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Homem fumante sem opioide: 0 (10%)",
+      "input": {
+        "fem": false,
+        "naofuma": false,
+        "historia": false,
+        "opioide": false
+      },
+      "publicOutput": {
+        "id": "apfel",
+        "main": [
+          "0",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "level": "low",
+        "verdict": "Risco de NVPO de cerca de 10%",
+        "note": "Profilaxia em geral dispensável, salvo outros fatores.",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Mulher não fumante: 2 (39%)",
+      "input": {
+        "fem": true,
+        "naofuma": true,
+        "historia": false,
+        "opioide": false
+      },
+      "publicOutput": {
+        "id": "apfel",
+        "main": [
+          "2",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "raw": {
+          "score": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 2,
+        "level": "mid",
+        "verdict": "39%"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "level": "mid",
+        "verdict": "Risco de NVPO de cerca de 39%",
+        "note": "Profilaxia com 2 antieméticos de classes diferentes.",
+        "raw": {
+          "score": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Todos os fatores: 4 (79%)",
+      "input": {
+        "fem": true,
+        "naofuma": true,
+        "historia": true,
+        "opioide": true
+      },
+      "publicOutput": {
+        "id": "apfel",
+        "main": [
+          "4",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "raw": {
+          "score": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 4,
+        "level": "high",
+        "verdict": "79%"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "de 4"
+        ],
+        "label": "Escore de Apfel",
+        "level": "high",
+        "verdict": "Risco de NVPO de cerca de 79%",
+        "note": "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total.",
+        "raw": {
+          "score": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

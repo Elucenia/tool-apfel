@@ -69,3 +69,28 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Risiko für PONV von etwa 10%
+
+Prophylaxe im Allgemeinen entbehrlich, sofern keine anderen Faktoren vorliegen.
+
+
+### 2
+
+Risiko für PONV von etwa 39%
+
+Prophylaxe mit 2 Antiemetika aus unterschiedlichen Klassen.
+
+
+### 3
+
+Risiko für PONV von etwa 79%
+
+Multimodale Prophylaxe mit 3 bis 4 Maßnahmen; totale intravenöse Anästhesie erwägen.
+

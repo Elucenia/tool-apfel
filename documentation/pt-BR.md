@@ -69,3 +69,28 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Risco de NVPO de cerca de 10%
+
+Profilaxia em geral dispensável, salvo outros fatores.
+
+
+### 2
+
+Risco de NVPO de cerca de 39%
+
+Profilaxia com 2 antieméticos de classes diferentes.
+
+
+### 3
+
+Risco de NVPO de cerca de 79%
+
+Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total.
+

@@ -161,7 +161,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Apfel simplificado 1999:4 fatores,0–4; sem modelo Koivuranta",
-    "implementationVersion": "apfel@native-2026-10-03+f2feb09213a0",
+    "implementationVersion": "apfel@native-2026-10-05+64aaf4d89cba",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/10485781/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -264,7 +264,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "f2feb09213a0ebf3aae0f43522901f7aa47d9f683932ce30ecb9bf194d2fb36c"
+      "implementationHash": "64aaf4d89cba722acc84578f1b60f00fcbe7ab5d79dd071534a320e81ee90f3d",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "apfel@native-2026-10-03+f2feb09213a0",
+          "previousImplementationHash": "f2feb09213a0ebf3aae0f43522901f7aa47d9f683932ce30ecb9bf194d2fb36c",
+          "implementationHash": "64aaf4d89cba722acc84578f1b60f00fcbe7ab5d79dd071534a320e81ee90f3d",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "1eef3ff1ec95fc9e561599da82bbde4e5e5e7dc70e059dc140297488b0f1746a",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O Apfel simplificado de 1999 foi estudado em adultos sob anestesia inalatória, sem profilaxia antiemética, para náusea ou vômito nas primeiras 24 horas. As probabilidades da coorte original não são automaticamente recalibradas para crianças, outras técnicas anestésicas ou pessoas já recebendo profilaxia. A estratégia antiemética depende de avaliação e diretriz próprias.",
     "sourceLimitEvidence": {
@@ -283,15 +311,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/apfel/calculator.js",
-    "bytes": 4982,
-    "sha256": "f2feb09213a0ebf3aae0f43522901f7aa47d9f683932ce30ecb9bf194d2fb36c"
+    "bytes": 5187,
+    "sha256": "64aaf4d89cba722acc84578f1b60f00fcbe7ab5d79dd071534a320e81ee90f3d"
   },
-  "sourceToolSha256": "9c33f5b1ae9c9f13ba3518bbad4fd625bd3998d15e573dde934d5f40b1d10c59",
+  "sourceToolSha256": "e6915f624c1fa8122a7773f5af75211e153687ea4054afe303a71ef56237e72b",
   "omittedFullReferenceBanks": [
     {
       "rows": 16,
       "sha256": "4581aadd73305fd8a53bec51b135a5966a8097990bb6c8d8c8c5559c049ff3f9",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

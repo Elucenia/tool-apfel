@@ -1,0 +1,537 @@
+{
+  "id": "apfel",
+  "implementationVersion": "apfel@native-2026-10-05+64aaf4d89cba",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco de NVPO de cerca de 10%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Profilaxia em geral dispensável, salvo outros fatores.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco de NVPO de cerca de 39%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Profilaxia com 2 antieméticos de classes diferentes.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco de NVPO de cerca de 79%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Profilaxia multimodal com 3 a 4 intervenções; considere anestesia venosa total.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risk of PONV of about 10%",
+            "locale": "en",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "Prophylaxis generally unnecessary, unless other factors are present.",
+            "locale": "en",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risk of PONV of about 39%",
+            "locale": "en",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "Prophylaxis with 2 antiemetics from different classes.",
+            "locale": "en",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risk of PONV of about 79%",
+            "locale": "en",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "Multimodal prophylaxis with 3 to 4 interventions; consider total intravenous anesthesia.",
+            "locale": "en",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo de NVPO de alrededor del 10%",
+            "locale": "es",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "La profilaxis en general no es necesaria, salvo que existan otros factores.",
+            "locale": "es",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo de NVPO de alrededor del 39%",
+            "locale": "es",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "Profilaxis con 2 antieméticos de clases diferentes.",
+            "locale": "es",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo de NVPO de alrededor del 79%",
+            "locale": "es",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "Profilaxis multimodal con 3 a 4 intervenciones; considere anestesia intravenosa total.",
+            "locale": "es",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque de NVPO d’environ 10%",
+            "locale": "fr",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "La prophylaxie est généralement inutile, sauf en présence d’autres facteurs.",
+            "locale": "fr",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque de NVPO d’environ 39%",
+            "locale": "fr",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "Prophylaxie avec 2 antiémétiques de classes différentes.",
+            "locale": "fr",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque de NVPO d’environ 79%",
+            "locale": "fr",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "Prophylaxie multimodale avec 3 à 4 interventions ; envisager une anesthésie intraveineuse totale.",
+            "locale": "fr",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risiko für PONV von etwa 10%",
+            "locale": "de",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "Prophylaxe im Allgemeinen entbehrlich, sofern keine anderen Faktoren vorliegen.",
+            "locale": "de",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risiko für PONV von etwa 39%",
+            "locale": "de",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "Prophylaxe mit 2 Antiemetika aus unterschiedlichen Klassen.",
+            "locale": "de",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risiko für PONV von etwa 79%",
+            "locale": "de",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "Multimodale Prophylaxe mit 3 bis 4 Maßnahmen; totale intravenöse Anästhesie erwägen.",
+            "locale": "de",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio di NVPO di circa 10%",
+            "locale": "it",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "Profilassi in genere non necessaria, salvo altri fattori.",
+            "locale": "it",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio di NVPO di circa 39%",
+            "locale": "it",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "Profilassi con 2 antiemetici di classi diverse.",
+            "locale": "it",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio di NVPO di circa 79%",
+            "locale": "it",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "Profilassi multimodale con 3 a 4 interventi; considerare l’anestesia endovenosa totale.",
+            "locale": "it",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر الغثيان والقيء بعد العملية الجراحية بنحو 10%",
+            "locale": "ar",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "الوقاية غير ضرورية عمومًا، ما لم تكن هناك عوامل أخرى.",
+            "locale": "ar",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر الغثيان والقيء بعد العملية الجراحية بنحو 39%",
+            "locale": "ar",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "الوقاية بمضادَّي قيء من فئتين مختلفتين.",
+            "locale": "ar",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر الغثيان والقيء بعد العملية الجراحية بنحو 79%",
+            "locale": "ar",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "وقاية متعددة الوسائط مع 3 إلى 4 تدخلات؛ فكّر في التخدير الوريدي الكلي.",
+            "locale": "ar",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "术后恶心和呕吐风险约为10%",
+            "locale": "zh",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "一般无需预防，除非存在其他因素。",
+            "locale": "zh",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "术后恶心和呕吐风险约为39%",
+            "locale": "zh",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "使用2种不同类别的止吐药进行预防。",
+            "locale": "zh",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "术后恶心和呕吐风险约为79%",
+            "locale": "zh",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "采用3至4项干预的多模式预防；考虑全凭静脉麻醉。",
+            "locale": "zh",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONVのリスクは約10%",
+            "locale": "ja",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "他の因子がない限り、予防投与は通常不要。",
+            "locale": "ja",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONVのリスクは約39%",
+            "locale": "ja",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "異なるクラスの制吐薬2剤による予防。",
+            "locale": "ja",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONVのリスクは約79%",
+            "locale": "ja",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "3～4の介入による多面的予防；全静脈麻酔を考慮する。",
+            "locale": "ja",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Homem fumante sem opioide: 0 (10%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONV का जोखिम लगभग 10%",
+            "locale": "hi",
+            "template": "documented-authored-41555293b01fd54d2ebd"
+          },
+          "note": {
+            "text": "अन्य कारक होने पर छोड़कर, प्रोफिलैक्सिस सामान्यतः आवश्यक नहीं है।",
+            "locale": "hi",
+            "template": "documented-authored-53faf6605de2ab339de9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher não fumante: 2 (39%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONV का जोखिम लगभग 39%",
+            "locale": "hi",
+            "template": "documented-authored-e37ab72cf92afa84e903"
+          },
+          "note": {
+            "text": "विभिन्न वर्गों की 2 एंटीइमेटिक दवाओं के साथ प्रोफिलैक्सिस।",
+            "locale": "hi",
+            "template": "documented-authored-8b458014ccc03bc5de70"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os fatores: 4 (79%)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "PONV का जोखिम लगभग 79%",
+            "locale": "hi",
+            "template": "documented-authored-1f3f46caa90229757639"
+          },
+          "note": {
+            "text": "3 से 4 हस्तक्षेपों के साथ बहु-मोडल प्रोफिलैक्सिस; टोटल इंट्रावेनस एनेस्थीसिया पर विचार करें।",
+            "locale": "hi",
+            "template": "documented-authored-e37f56854a1c26744bae"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}
